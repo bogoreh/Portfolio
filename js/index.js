@@ -1,3 +1,4 @@
+
 /*===== MENU SHOW =====*/
 const showMenu = (toggleId, navId) => {
     const toggle = document.getElementById(toggleId),
@@ -48,7 +49,7 @@ sr.reveal('.home__social-icon', {
 /*SCROLL ABOUT*/
 sr.reveal('.about__img', {});
 sr.reveal('.about__subtitle', {
-    delay: 400
+    delay: 300
 });
 sr.reveal('.about__text', {
     delay: 400
